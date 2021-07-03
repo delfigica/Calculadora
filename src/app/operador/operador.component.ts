@@ -6,8 +6,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./operador.component.css']
 })
 export class OperadorComponent  {
-  operandoA: number = 0;
-  operandoB: number = 0;
+  operandoA: number;
+  operandoB: number;
 
   @Output () resuldadoCuenta = new EventEmitter<number>();
 
