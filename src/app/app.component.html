@@ -3,5 +3,7 @@
   <app-operador
   (resuldadoCuenta)="procesarResultado($event)"
   ></app-operador>
-  <p>Resultado: {{ resultado }}</p>
+  <app-resultado
+  [resultado] = "resultadoPadre"
+  ></app-resultado>
 </div>
